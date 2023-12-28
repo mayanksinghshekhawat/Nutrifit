@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;;
+}
+.main{
+    display: flex;
+    /* padding-top: 50px; */
+    gap:5rem
+}
+.pic_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: 50%;
+    background-color: #FAFBFF;
+    height: 100vh;
+}
+.pic_text img{
+    max-width:90%;
+
+}
+.pic_text h1{
+    margin:20px 20px;
+    color:#0075FF
+}
+.pic_text p{
+    margin:0 20px;
+    font-size:20px;
+    color:rgb(170, 166, 166);
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* gap: 5rem; */
+}
+.login p{
+    margin:0 20px;
+    font-size:20px;
+    color:rgb(170, 166, 166);
+}
+.login h1{
+    margin: 0 20px;
+}
+#login_text{
+    color:#0075FF
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap:1rem;
+}
+#btn1{
+    font-family:'Nunito' , sans-serif;
+    color:#FFF;
+    background:#4f7df9;
+    font-size:16px;
+    border-radius:8px;
+    padding:12px 0;
+    /* width:100%; */
+    text-align: center;
+    outline:none;
+    border:none;
+    transition: background .2s ease;
+    cursor: pointer;
+}
+#btn2{
+    font-family:'Nunito' , sans-serif;
+    color:#777676;
+    background: #FFF;
+    font-size:16px;
+    border-radius:8px;
+    padding:12px 0;
+    /* width:100%; */
+    text-align: center;
+    outline:none;
+    border:1px solid#d1cdcd ;
+    transition: background .2s ease;
+    cursor: pointer;
+}
+form{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0 20px;
+}
+.form input{
+    /* border: 1px solid #b5b3b3;
+    border-radius:8px; */
+    border: none;
+    font-size: 16px;
+    padding: 12px 0;
+    text-align: center;
+    outline: none;
+}
+.form label{
+    color:#4c5a82;
+    margin-bottom: 5px;
+}
+svg{
+width:20px;
+}
+.input-icon-1{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    border: 1px solid #b5b3b3;
+    border-radius:8px;
+    margin-bottom: 30px;
+}
+.input-icon-2{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:space-around;
+    border: 1px solid #b5b3b3;
+    border-radius:8px; 
+}

@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700&family=Nunito+Sans:wght@600;800;900&family=Roboto:wght@400;700;900&family=Work+Sans:wght@300;400;500;600;700;800&display=swap');
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+/* body{
+    min-height: 100vh;
+    background:;
+    background-size:cover;
+    font-family: 'Nunito' , sans-serif;
+} */
+nav{
+    font-family: "Roboto",sans-serif;
+    display:flex;
+    justify-content: space-between;
+    padding: 15px 5%;
+    align-items: center;
+    background-color: #18283B;
+}
+.logo{
+    color: #FFF;
+    font-size:22px;
+}
+ul{
+    list-style:none;
+}
+ul li{
+    display:inline-block
+}
+ul li a{
+    text-decoration: none;
+    color:#8291A5;
+    padding: 8px 30px;
+    border-radius: 7px ;
+    transition:all 0.3s ease;
+}
+ul li a:hover,
+ul li a.active{
+    color:#FFF;
+    background: #0075FF;
+}
+#icon{
+    background-color:#0075FF;
+    padding: 7px 7px 3px 7px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+#checkbox,#icon{
+    display: none;
+}
+#icon:hover{
+    background-color: #FFF;
+}
+#icon svg:hover{
+    background-color: #0075FF;
+}
+#icon svg{
+    padding: 5px 7px 3px 7px;
+    height: 28px;
+    color:#FFF;
+}
+@media screen and (max-width: 761px) {
+    nav{
+        border: 1px solid #455468;
+    }
+    ul{
+    position:absolute;
+      width:100%;
+      height: calc(100vh-71px);
+      left:0;
+      top:0;
+      text-align:center;
+      background: #18283B;
+      display: none;
+      margin:71px;
+    }
+    ul li{
+        display:block;
+        padding:10px 15px;
+    }
+    ul li a{
+        display: block;
+        padding: 10px 0px;
+    }
+    #icon{
+        display:block;
+    }
+    #checkbox:checked~ul{
+        display:block;
+    }
+}
+.container{
+    /* position: absolute; */
+    /* left:50%;
+    top:50%;
+    transform: translate(-50%,-50%); */
+    /* float: left; */
+    margin: 15px 15px;
+}
+.box{
+    width: 100%;
+    background: #fafafa;
+    border-radius: 38px;
+    text-align:center;
+    position:relative;
+    height: 672px;
+}
+/* .box::before{
+    content:'';
+    position: absolute;
+    height: 110%;
+    width: 110%;
+    left:-5%;
+    top:-5%;
+    /* background-color: ;
+    box-shadow:; */
+    /* border-radius: 60px;
+    z-index: -1; */
+} */
+h1{
+    font-weight:bold;
+    font-size: 36px;
+    padding:30px 0;
+    font-family: Merriweather;
+}
+.content{
+    padding: 0 40px;
+}
+.input{
+    background: ;
+    box-shadow: ;
+    border-radius: 28px;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+.input label{
+    display:block;
+    font-size:18px;
+    font-weight: 600;
+    font-family: Nunito;
+    color:#000;
+    margin-bottom: 20px;
+}
+.input input{
+    outline:none;
+    border:none;
+    border-bottom:1px solid #4f7df9;
+    width:200px;
+    text-align:center;
+    font-size:28px;
+    font-family:'Nunito' , sans-serif;
+}
+button#calculate{
+    font-family:'Nunito' , sans-serif;
+    color:#FFF;
+    background:#4f7df9;
+    font-size:16px;
+    border-radius:12px;
+    padding:12px 0;
+    /* width:100%; */
+    text-align: center;
+    outline:none;
+    border:none;
+    transition: background .2s ease;
+    cursor: pointer;
+}
+button#calculate:hover{
+    background: #0044ff;
+}
+.result{
+    padding: 30px 20px;
+}
+.result p{
+    font-weight: 600;
+    font-size:22px;
+    color:#000;
+    margin-bottom: 15px;
+    
+}
+.result #result{
+    font-size:36px;
+    font-weight:900px;
+    color:#4f7df9;
+    background-color: #eaeaea;
+    display:inline-block;
+    padding: 7px 20px;
+    border-radius: 55px;
+    margin-bottom: 25px;
+    
+}
+.comment{
+    font-size:25px;
+}
+#comment{
+    color:#4f7df9;
+    font-weight:800px;
+    font-size:25px;
+}
+.heading_about_bmi{
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 30px;
+}
+.bmi_info{
+    text-align: center;
+}
+.bmi_info img{
+    max-width: 50%;
+
+}
+.bmi_text{
+    padding:8% 10%;
+    font-size:25px;
+    font-family: Manrope;
+}
+.about_bmi{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.bmi_table{
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    text-align: right;
+}
+.bmi_table table{
+    border-collapse: collapse;
+    width:50%;
+    transform: translate(50%,0);
+    margin-top: 2.5rem;
+}
+caption{
+    font-family: Work Sans;
+    font-size:25px;
+    font-weight:700;
+}
+table, th, td {
+    border: 1px solid #212529;
+    border-radius: 20%;
+  }
+  th ,td{
+    padding:10px;
+    text-align: left;
+    font-family: Merriweather;
+  }
+  th{
+    font-weight:bolder;
+  }
+.our_tools_heading{
+    text-align: center;
+    font-family: Work Sans;
+    margin:1.5rem 0;
+}
+  .programs2{
+    display: flex;
+    justify-content: space-evenly;
+    /* border-top:2px solid #18283B; */
+}
+.text2 p{
+    text-align: center;
+    margin-top:5%;
+    margin-bottom: 5%;
+    font-size:large;
+    font-family: Merriweather;
+}
+.text2{
+    padding:24px;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 68, 255, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    border-top:2.5 px solid #18283B;
+    /* border-width: 75%; */
+
+}
+button{
+    font-family:'Nunito' , sans-serif;
+    color:#FFF;
+    background:#4f7df9;
+    font-size:16px;
+    border-radius:12px;
+    padding:12px 0;
+    width:25%;
+    outline:none;
+    border:none;
+    cursor: pointer;
+}
+button:hover{
+    background: #0044ff;
+    transition: background-color .2s ease;
+}
+.btn{
+    text-align: center;
+}
+#img{
+    margin: 15px 0;
+    /* border-radius: 5%; */
+    width: 215px;
+    height:143;
+    /* border: 1.5px solid #4f7df9; */
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+footer{
+    position:static
+}
+section{
+    background-color: #18283B;
+    padding-top: 2.5%;
+  }
+  .foot{
+    text-align: center;
+    
+    
+  }
+  .foot a{
+    color:#8291A5;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: larger;
+    margin:1.5rem;
+  }
+  .foot a:hover{
+    color: #0075FF;
+    
+  }

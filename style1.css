@@ -1,0 +1,119 @@
+/* body{
+    background-image: url(https://media.istockphoto.com/id/1033542740/photo/blurred-business-background-blur-warehouse-with-bokeh-light-background.jpg?b=1&s=170667a&w=0&k=20&c=-oOT40hUnRYYu20tvqcBM-wIVCWMUO4soi2KGKaqIgA=);
+} */
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Sacramento&family=Work+Sans:ital,wght@0,300;1,100&display=swap');
+</style>
+
+.plans{
+   
+   color: black; 
+    font-size: 70px;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+
+}
+.head{
+    text-align:center ;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin-top: 50px; */
+    
+}
+#img1{
+    margin-left: 50px;
+    max-width: 75%;
+    max-height: fit-content;
+    border-radius: 10%;
+    margin-top: 20px;
+}
+.Container{
+    display: flex;
+    
+    .Content{
+        margin-left: 20px;
+        margin-right: 20px;
+        
+    }
+    
+}
+
+.Base{
+    text-align: center;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#img2{
+    margin-left: 50px;
+    max-width: 80%;
+    max-height:fit-content;
+    border-radius: 10%;
+}
+.Container2{
+    display: flex;
+    font-family: 'Work Sans', sans-serif;
+    justify-content: space-between;
+    gap:2.5rem
+}
+/* #button1{
+    transition-duration: 0.4s;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 10px;
+    align-items: center;
+    width: 25%;
+}
+#button1:hover{
+    background-color: #4f7df9;
+    color: white;
+
+}
+#button2{
+    transition-duration: 0.4s;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 10px;
+    align-items: center;
+    width: 25%;
+}
+#button2:hover{
+    background-color: #4f7df9;
+    color: white; */
+/* } */
+button{
+    font-family:'Nunito' , sans-serif;
+    color:#FFF;
+    background:#4f7df9;
+    font-size:16px;
+    border-radius:12px;
+    padding:12px 0;
+    width:25%;
+    outline:none;
+    border:none;
+    cursor: pointer;
+}
+button:hover{
+    background: #0044ff;
+    transition: background-color .2s ease;
+}
+.btn{
+    text-align: center;
+}
+.Main{
+    max-width: 100%;
+}
+#WL{
+    font-family: 'Work Sans', sans-serif;
+    
+}
+.Super base{
+    margin-top: ;
+}
+#WL1{
+    font-family: 'Work Sans', sans-serif;
+    font-size:40px;
+}
+.heading{
+    color:#0044ff;
+}
